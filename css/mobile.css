@@ -4,3 +4,35 @@
   }
 }
 
+/*----------Customers----------*/
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .client-link {
+    padding: 8px 20px;
+  }
+
+  /*----------Menu----------*/
+
+  .mob-menu-tel {
+    font-size: 24px;
+  }
+
+  .menu-soc-list {
+    gap: 30px;
+  }
+}
+
+/*----------Modal----------*/
+
+@media screen and (max-height: 620px) {
+  .modal {
+    height: 95%;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 403px) {
+  .modal-title {
+    font-size: 12px;
+  }
+}
